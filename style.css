@@ -1,0 +1,113 @@
+body > *:not(script) {
+  font-family: Inter, Arial;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  font-size: 1.7em;
+  margin-bottom: 30px;
+}
+
+#expense-form * {
+  font-family: Inter, Arial;
+}
+
+#expense-form {
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+#expense-form label,
+#expense-form button {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+#expense-form select,
+#expense-form input {
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+#add-expense-btn,
+#clear-form-btn {
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 10px;
+  transition: background-color 0.25s;
+}
+
+#add-expense-btn {
+  background-color: hsl(214, 100%, 50%);
+}
+
+#add-expense-btn:hover {
+  background-color: hsl(214, 100%, 60%);
+}
+
+#add-expense-btn:active {
+  background-color: hsl(214, 100%, 80%);
+}
+
+#clear-form-btn {
+  background-color: hsl(9, 100%, 40%);
+}
+
+#clear-form-btn:hover {
+  background-color: hsl(9, 100%, 50%);
+}
+
+#clear-form-btn:active {
+  background-color: hsl(9, 100%, 70%);
+}
+
+#table-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#expense-tracker {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tbody td,
+tfoot th {
+  border: 3px solid hsl(0, 0%, 87%);
+}
+
+thead th {
+  background-color: hsl(214, 100%, 40%);
+  color: white;
+  border: 3px solid hsl(0, 0%, 87%);
+}
+
+.deleteBtn {
+  font-size: 1em;
+  background-color: hsl(9, 100%, 30%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 3px 6px;
+  border-radius: 5px;
+  transition: background-color 0.25s;
+}
+
+.deleteBtn:hover {
+  background-color: hsl(9, 100%, 40%);
+}
+
+.deleteBtn:active {
+  background-color: hsl(9, 100%, 60%);
+}
